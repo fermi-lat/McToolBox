@@ -1,4 +1,16 @@
 ------------------------------------------------------------
+User: usher  Fri Oct  1 12:47:49 PDT 2004
+McToolBox/src
+
+Modified Files:
+	BuildEventStructure.cxx BuildEventStructure.h 
+	BuildMcTracks.cxx BuildMcTracks.h BuildPatCandTab.cxx 
+	BuildPatCandTab.h McGetEventInfoTool.cxx 
+	McGetTrackInfoTool.cxx McToolBoxAlg.cxx 
+Log Message:
+Modifications for inlining of McEventStructure and change to TkrTrack/TkrTrackHit
+    *
+------------------------------------------------------------
 User: usher  Fri Oct  1 12:47:48 PDT 2004
 McToolBox/cmt
 
