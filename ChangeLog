@@ -1,5 +1,15 @@
 ------------------------------------------------------------
 User: usher  Wed Dec 15 21:16:06 PST 2004
+McToolBox/cmt
+
+Added Files:
+	.cvsignore 
+Removed Files:
+	NMake cleanup.bat setup.bat 
+Log Message:
+    *
+------------------------------------------------------------
+User: usher  Wed Dec 15 21:16:06 PST 2004
 McToolBox/src
 
 Modified Files:
