@@ -13,7 +13,7 @@
  * 
  * @author Tracy Usher
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McGetTrackInfoTool.cxx,v 1.0 2004/01/13 06:51:49 lsrea Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McGetTrackInfoTool.cxx,v 1.1.1.1 2004/02/19 22:58:18 usher Exp $
  */
 
 
@@ -24,6 +24,7 @@
 #include "GaudiKernel/SmartDataPtr.h"
 #include "GaudiKernel/GaudiException.h" 
 #include "GaudiKernel/IParticlePropertySvc.h"
+#include "GaudiKernel/IDataProviderSvc.h"
 #include "GaudiKernel/ParticleProperty.h"
 #include "GaudiKernel/AlgTool.h"
 

@@ -14,7 +14,7 @@
  * 
  * @author Tracy Usher
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McToolBoxAlg.cxx,v 1.0 2004/01/13 06:51:49 lsrea Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McToolBoxAlg.cxx,v 1.1.1.1 2004/02/19 22:58:18 usher Exp $
  */
 
 // Include standard gaudi stuff for an algorithm
@@ -125,6 +125,7 @@ StatusCode McToolBoxAlg::initialize()
 
         mcmenu.add(new McTracksRep(m_McTracks), "Monte Carlo Tracks");
     }
+    else sc = StatusCode::SUCCESS;
    
     return sc;
 }
