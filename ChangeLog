@@ -1,0 +1,35 @@
+------------------------------------------------------------
+User: usher  Thu Feb 19 14:58:19 PST 2004
+McToolBox
+
+Log Message:
+Initial import of the new McToolBox package for analyzing Monte Carlo information
+produced in G4Generator
+
+Status:
+
+Vendor Tag:	GLAST
+Release Tags:	v0r0
+		
+N McToolBox/.cvsignore
+N McToolBox/cmt/cleanup.bat
+N McToolBox/cmt/NMake
+N McToolBox/cmt/requirements
+N McToolBox/cmt/setup.bat
+N McToolBox/doc/release.notes
+N McToolBox/src/BuildEventStructure.cxx
+N McToolBox/src/BuildEventStructure.h
+N McToolBox/src/BuildMcTracks.cxx
+N McToolBox/src/BuildMcTracks.h
+N McToolBox/src/BuildPatCandTab.cxx
+N McToolBox/src/BuildPatCandTab.h
+N McToolBox/src/McBuildRelTablesTool.cxx
+N McToolBox/src/McGetEventInfoTool.cxx
+N McToolBox/src/McGetTrackInfoTool.cxx
+N McToolBox/src/McToolBoxAlg.cxx
+N McToolBox/src/Dll/McToolBox_dll.cxx
+N McToolBox/src/Dll/McToolBox_load.cxx
+
+No conflicts created by this import
+
+    *
