@@ -14,7 +14,7 @@
  * 
  * @author Tracy Usher
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McGetEventInfoTool.cxx,v 1.1.1.1 2004/02/19 22:58:18 usher Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McGetEventInfoTool.cxx,v 1.2 2004/10/01 19:47:49 usher Exp $
  */
 
 
@@ -32,7 +32,6 @@
 #include "Event/TopLevel/MCEvent.h"
 #include "Event/MonteCarlo/McEventStructure.h"
 #include "Event/Recon/TkrRecon/TkrCluster.h"
-#include "Event/Recon/TkrRecon/TkrPatCand.h"
 
 
 class McGetEventInfoTool : public AlgTool, virtual public IMcGetEventInfoTool 
