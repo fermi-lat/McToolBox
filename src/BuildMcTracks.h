@@ -8,7 +8,7 @@
  *
  * @author The Tracking Software Group
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/TkrRecon/src/MonteCarlo/BuildMcTracks.h,v 1.1 2003/08/04 20:11:24 usher Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/BuildMcTracks.h,v 1.1.1.1 2004/02/19 22:58:18 usher Exp $
  */
 #include "GaudiKernel/IDataProviderSvc.h"
 #include "GaudiKernel/SmartRefVector.h"
