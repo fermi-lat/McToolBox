@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Fri Oct  1 12:47:48 PDT 2004
+McToolBox/cmt
+
+Modified Files:
+	requirements setup.bat 
+Log Message:
+Modifications for inlining of McEventStructure and change to TkrTrack/TkrTrackHit
+    *
+------------------------------------------------------------
 User: usher  Thu Feb 19 14:58:19 PST 2004
 McToolBox
 
