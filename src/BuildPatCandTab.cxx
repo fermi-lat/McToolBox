@@ -11,7 +11,7 @@
  *
  * @author The Tracking Software Group
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/BuildPatCandTab.cxx,v 1.1.1.1 2004/02/19 22:58:18 usher Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/BuildPatCandTab.cxx,v 1.2 2004/10/01 19:47:49 usher Exp $
  */
 #include "BuildPatCandTab.h"
 #include "GaudiKernel/SmartDataPtr.h"
@@ -54,6 +54,9 @@ Event::BuildPatCandTab::BuildPatCandTab(IDataProviderSvc* dataSvc)
         {
             Event::TkrTrackHit*      candHit = *hitIter;
             const Event::TkrCluster* cluster = candHit->getClusterPtr();
+
+            if (cluster == 0) continue;
+
             Event::McPartToClusVec   hitVec  = mcPartToClusTab.getRelBySecond(cluster);
 
             // Ok, now loop over the  McParticle <-> TkrCluster relations
