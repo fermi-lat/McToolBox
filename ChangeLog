@@ -1,4 +1,29 @@
 ------------------------------------------------------------
+TAG
+Tag name: v0r2p0, operation: add
+Package: McToolBox
+User: usher  Thu Jun 23 13:26:01 2005
+Files:
+  McToolBox/.cvsignore  1.1.1.1
+  McToolBox/ChangeLog  1.8
+  McToolBox/cmt/.cvsignore  1.1
+  McToolBox/cmt/requirements  1.3
+  McToolBox/doc/release.notes  1.3
+  McToolBox/src/McGetEventInfoTool.cxx  1.3
+  McToolBox/src/BuildMcTracks.cxx  1.2
+  McToolBox/src/BuildPatCandTab.cxx  1.3
+  McToolBox/src/BuildMcTracks.h  1.2
+  McToolBox/src/McBuildRelTablesTool.cxx  1.1.1.1
+  McToolBox/src/BuildEventStructure.h  1.2
+  McToolBox/src/McGetTrackInfoTool.cxx  1.3
+  McToolBox/src/BuildEventStructure.cxx  1.2
+  McToolBox/src/BuildPatCandTab.h  1.2
+  McToolBox/src/McToolBoxAlg.cxx  1.2
+  McToolBox/src/Dll/McToolBox_dll.cxx  1.1.1.1
+  McToolBox/src/Dll/McToolBox_load.cxx  1.1.1.1
+
+    *
+------------------------------------------------------------
 User: usher  Thu Jun 23 13:24:12 PDT 2005
 McToolBox/doc
 
