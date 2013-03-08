@@ -13,7 +13,7 @@
  * 
  * @author Tracy Usher
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McGetTrackInfoTool.cxx,v 1.2 2004/10/01 19:47:49 usher Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McGetTrackInfoTool.cxx,v 1.3 2004/12/16 05:16:06 usher Exp $
  */
 
 
@@ -84,8 +84,10 @@ private:
 };
 
 
-static ToolFactory<McGetTrackInfoTool> s_factory;
-const IToolFactory& McGetTrackInfoToolFactory = s_factory;
+//static ToolFactory<McGetTrackInfoTool> s_factory;
+//const IToolFactory& McGetTrackInfoToolFactory = s_factory;
+DECLARE_TOOL_FACTORY(McGetTrackInfoTool);
+
 //
 // Class constructor, no initialization here
 //
