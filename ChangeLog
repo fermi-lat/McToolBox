@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: usher  Thu Mar  7 18:40:22 PST 2013
+McToolBox/src
+
+Modified Files:
+	BuildMcTracks.cxx McBuildRelTablesTool.cxx 
+	McGetEventInfoTool.cxx McGetTrackInfoTool.cxx McToolBoxAlg.cxx 
+Log Message:
+Bringing up to date with new gaudi and scons
+    *
+------------------------------------------------------------
 User: usher  Thu Mar  7 18:39:47 PST 2013
 McToolBox/src/test
 
