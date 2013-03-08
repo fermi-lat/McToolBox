@@ -1,5 +1,14 @@
 ------------------------------------------------------------
 User: usher  Thu Mar  7 18:40:22 PST 2013
+McToolBox
+
+Added Files:
+	McToolBoxLib.py SConscript 
+Log Message:
+Bringing up to date with new gaudi and scons
+    *
+------------------------------------------------------------
+User: usher  Thu Mar  7 18:40:22 PST 2013
 McToolBox/src
 
 Modified Files:
