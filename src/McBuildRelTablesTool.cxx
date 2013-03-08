@@ -14,7 +14,7 @@
  * 
  * @author Tracy Usher
  *
- * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McBuildRelTablesTool.cxx,v 1.0 2004/01/13 06:51:49 lsrea Exp $
+ * $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/McBuildRelTablesTool.cxx,v 1.1.1.1 2004/02/19 22:58:18 usher Exp $
  */
 
 // Include standard gaudi stuff for an algorithm
@@ -63,8 +63,9 @@ private:
     IDataProviderSvc*        m_dataSvc;
 };
 
-static ToolFactory<McBuildRelTablesTool> s_factory;
-const IToolFactory& McBuildRelTablesToolFactory = s_factory;
+//static ToolFactory<McBuildRelTablesTool> s_factory;
+//const IToolFactory& McBuildRelTablesToolFactory = s_factory;
+DECLARE_TOOL_FACTORY(McBuildRelTablesTool);
 
 McBuildRelTablesTool::McBuildRelTablesTool(const std::string& type, const std::string& name, const IInterface* parent) :
                        AlgTool(type, name, parent)
