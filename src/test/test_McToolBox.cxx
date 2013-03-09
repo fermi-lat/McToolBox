@@ -1,4 +1,4 @@
-// $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/McToolBox/src/test/test_McToolBox.cxx,v 1.9 2012/05/07 23:04:43 usher Exp $
+// $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/test/test_McToolBox.cxx,v 1.1 2013/03/08 02:40:22 usher Exp $
 // Include files
 // Gaudi system includes
 #include "GaudiKernel/MsgStream.h"
@@ -13,9 +13,9 @@
 
 #include "Event/Digi/TkrDigi.h"
 
-#include "Event/Recon/McToolBox/TkrCluster.h"
-#include "Event/Recon/McToolBox/TkrTrack.h"
-#include "Event/Recon/McToolBox/TkrVertex.h"
+#include "Event/Recon/TkrRecon/TkrCluster.h"
+#include "Event/Recon/TkrRecon/TkrTrack.h"
+#include "Event/Recon/TkrRecon/TkrVertex.h"
 
 
 
@@ -29,7 +29,7 @@
 *
 * @author Leon Rochester
 *
-* $Header: /nfs/slac/g/glast/ground/cvs/GlastRelease-scons/McToolBox/src/test/test_McToolBox.cxx,v 1.9 2012/05/07 23:04:43 usher Exp $
+* $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/src/test/test_McToolBox.cxx,v 1.1 2013/03/08 02:40:22 usher Exp $
 */
 
 class test_McToolBox : public Algorithm {
