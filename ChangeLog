@@ -1,4 +1,33 @@
 ------------------------------------------------------------
+TAG
+Tag name: McToolBox-00-02-01, operation: add
+Package: McToolBox
+User: lsrea  Wed Apr  3 13:12:29 2013
+Files:
+  McToolBox/McToolBoxLib.py  1.1
+  McToolBox/.cvsignore  1.1.1.1
+  McToolBox/ChangeLog  1.20
+  McToolBox/SConscript  1.3
+  McToolBox/cmt/.cvsignore  1.1
+  McToolBox/cmt/requirements  1.4
+  McToolBox/doc/release.notes  1.4
+  McToolBox/src/McGetTrackInfoTool.cxx  1.4
+  McToolBox/src/BuildEventStructure.cxx  1.2
+  McToolBox/src/McGetEventInfoTool.cxx  1.4
+  McToolBox/src/BuildMcTracks.cxx  1.3
+  McToolBox/src/BuildPatCandTab.h  1.2
+  McToolBox/src/BuildPatCandTab.cxx  1.3
+  McToolBox/src/BuildMcTracks.h  1.2
+  McToolBox/src/McToolBoxAlg.cxx  1.3
+  McToolBox/src/McBuildRelTablesTool.cxx  1.2
+  McToolBox/src/BuildEventStructure.h  1.2
+  McToolBox/src/Dll/McToolBox_dll.cxx  1.1.1.1
+  McToolBox/src/Dll/McToolBox_load.cxx  1.1.1.1
+  McToolBox/src/test/jobOptions.txt  1.1
+  McToolBox/src/test/test_McToolBox.cxx  1.2
+
+    *
+------------------------------------------------------------
 User: lsrea  Wed Apr  3 13:12:23 PDT 2013
 McToolBox/cmt
 
