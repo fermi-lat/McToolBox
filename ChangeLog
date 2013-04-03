@@ -1,4 +1,14 @@
 ------------------------------------------------------------
+User: lsrea  Wed Apr  3 13:04:55 PDT 2013
+McToolBox
+
+Modified Files:
+	SConscript 
+Log Message:
+fix to build on linux... thanks Joanne!
+
+    *
+------------------------------------------------------------
 User: lsrea  Sat Mar  9 10:43:09 PST 2013
 McToolBox/src/test
 
