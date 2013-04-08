@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Mon Apr  8 07:33:31 PDT 2013
+McToolBox/src/test
+
+Modified Files:
+	jobOptions.txt 
+Log Message:
+test program Job Options file to actually put test_McToolBox in list of algorithms to execute (as opposed to test_TkrRecon)
+    *
+------------------------------------------------------------
 User: usher  Mon Apr  8 07:31:39 PDT 2013
 McToolBox
 
