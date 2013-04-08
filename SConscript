@@ -1,5 +1,5 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/SConscript,v 1.2 2013/04/03 20:04:55 lsrea Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/SConscript,v 1.3 2013/04/03 20:12:23 lsrea Exp $ 
 # Authors: Leon Rochester <lsrea@slac.stanford.edu>, Tracy Usher <usher@slac.stanford.edu>
 # Version: McToolBox-00-02-01
 Import('baseEnv')
@@ -20,5 +20,6 @@ test_McToolBox = progEnv.GaudiProgram('test_McToolBox',
 progEnv.Tool('registerTargets', package='McToolBox',
              libraryCxts = [[McToolBox,libEnv]],
              testAppCxts = [[test_McToolBox, progEnv]],
+             includes = listFiles(['McToolBox/*','src/*.h'], recursive = 1),
              xml=listFiles(files = ['xml/*'], recursive = True),
              jo = ['src/test/jobOptions.txt'])
