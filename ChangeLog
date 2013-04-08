@@ -1,4 +1,13 @@
 ------------------------------------------------------------
+User: usher  Mon Apr  8 07:31:39 PDT 2013
+McToolBox
+
+Modified Files:
+	SConscript 
+Log Message:
+Add line to include all files in visual studio
+    *
+------------------------------------------------------------
 TAG
 Tag name: McToolBox-00-02-01, operation: add
 Package: McToolBox
