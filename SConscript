@@ -1,7 +1,7 @@
 # -*- python -*-
-# $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/SConscript,v 1.3 2013/04/03 20:12:23 lsrea Exp $ 
+# $Header: /nfs/slac/g/glast/ground/cvs/McToolBox/SConscript,v 1.4 2013/04/08 14:31:39 usher Exp $ 
 # Authors: Leon Rochester <lsrea@slac.stanford.edu>, Tracy Usher <usher@slac.stanford.edu>
-# Version: McToolBox-00-02-01
+# Version: McToolBox-00-02-02
 Import('baseEnv')
 Import('listFiles')
 Import('packages')
